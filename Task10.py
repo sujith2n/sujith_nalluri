@@ -2,7 +2,7 @@
 num = list(range(1, 11))  # [1, 2, 3, ..., 10]
 
 # Step 2: Extract the first 5 elements using slicing
-first_five = num[:5]  # [1, 2, 3, 4, 5]
+first_five = num[0:5]  # [1, 2, 3, 4, 5]
 
 # Step 3: Reverse the extracted list using slicing
 reversed_five = first_five[::-1]  # [5, 4, 3, 2, 1]
